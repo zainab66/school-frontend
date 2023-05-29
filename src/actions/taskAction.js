@@ -1,6 +1,5 @@
 import Axios from 'axios';
-const baseURL = 'http://localhost:3001/api';
-// 'https://xi-team-api.onrender.com/api';
+const baseURL = 'https://xi-team-api.onrender.com/api';
 export const addList = async (title, createdBy) => {
   const response = await Axios.post(
     `${baseURL}/school/task/addList`,

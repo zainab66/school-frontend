@@ -1,6 +1,5 @@
 import Axios from 'axios';
-const baseURL = 'http://localhost:3001/api';
-//'https://xi-team-api.onrender.com/api';
+const baseURL = 'https://xi-team-api.onrender.com/api';
 // || 'http://localhost:3001/api';
 
 export const addEvent = async (
